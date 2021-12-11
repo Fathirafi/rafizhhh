@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Webnya rafi</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		html {
+			scroll-behavior: smooth;
+		}
+		a{
+			text-decoration: none;
+		}
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			background: #eee;
+		}
+		.banner-area {
+			width: 100;
+			height: 100vh;
+			background:linear-gradient(rgba(0, 0, 0, 0.74), rgba(30, 32, 32, 0.404)), url(bg.jpg); 
+			background-size: cover;
+
+		}
+		.nav ul{
+			font-size: 14px;
+			float: right;
+			list-style-type: none;
+			margin-top: 25px;
+  		padding-right: 100px
+		}
+		.nav ul li {
+			display: inline-block;
+		}
+
+		ul li a {
+			text-decoration: none;
+			color: #ddd;
+			padding: 5px 20px;
+			transition: 0.5%;
+			margin-top: 10px;
+		}
+
+		ul li a:hover{
+			background-color: #000;
+			color: #eee;
+		}
+
+		.content-area {
+			width: 100%;
+			height: 90%;
+			display:flex;
+			justify-content:center;
+			align-items: center;
+		}
+		.content {
+			text-align: center;
+		}
+		.content img {
+			width: 150px;
+			height: 150px;
+			border-radius: 250px;
+		}
+
+		.content h1 {
+			font-size: 35px;
+			color: 66FCF1(240, 86, 86);
+		}
+		.content p {
+			font-size: 20px;
+			color: #ddd;
+		}
+		.sec {
+			padding: 100px;
+			background: #eee;
+			text-align: center;
+		}
+
+		.sec h1{
+			font-size: 30px;
+			margin-bottom: 10px;
+			color: #000;
+			text-align: center;
+
+		}
+		.ul{
+			position: sticky;
+			margin-left: 150px;
+		}
+		footer{
+			background: #000;
+			padding-top: 70px
+
+		}
+		.footer-content{
+			display: flex;
+			background: #000;
+			text-align: center;
+			align-items: center;
+			color: #66FCF1;
+			justify-content: center;
+			flex-direction: column;
+		}
+		.footer-content p{
+			max-width: 500px;
+			margin:10px auto;
+			line-height: 28px;
+			font-size:20px;
+		}
+		.socials
+		{
+			list-style: none;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 1rem 0 3rem 0;
+		}
+		.social li{
+			margin: 0 10px;
+		}
+		.socials a{
+			text-decoration: none;
+			color: #fff;
+		}
+
+		.socials a i {
+			font-size: 30px;
+		}
+
+		.tabel {
+			margin-left: auto;
+			margin-right: auto;
+			border-collapse: collapse;
+			background: #000000;
+			border-spacing: 5;
+			border-radius: 20px 20px 0 0;
+			overflow: clip;
+			box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3)
+		}
+		.tabel th {
+			font-size: 20px;
+			color:#66FCF1;
+			padding: 15px;
+	background: rgb(0, 0, 0);
+background: linear-gradient(rgb(0, 0, 0) 100%);
+}
+
+		.tabel td {
+			font-size: 17px;
+			padding: 20px;
+			background-color: #cccccc;
+					}
+
+		.logo li {
+				float: left;
+			list-style-type: none;
+			margin-top: 30px;
+			
+			padding-left:100px;
+				}
+                
+                div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+	</style>
+</head>
+<body>
+	<header>
+	<div class="nav">
+		<ul>
+			<li><a href="#home"><font color ="66FCF1">HOME</a></li></font>
+			<li><a href="#about"><font color ="66FCF1">ABOUT</a></li></font>
+			<li><a href="#skills"><font color ="66FCF1">SKILLS</a></li></font>
+			<li><a href="#tabel"><font color ="66FCF1">TABEL</a></li></font>
+			<li><a href="#contact"><font color ="66FCF1">CONTACT</a></li></font>
+		</ul>
+	</div>
+		<ul class="logo">
+			<li><img src="bisa-removebg-preview.png" width="90px"></li>
+		</ul>
+</header>
+		<div class="banner-area" id="home">
+			<div class="content-area">
+				<div class="content">
+					<img src="IMG_4977.JPG">
+					<br>
+					<br>
+					<br>
+					<font color ="66FCF1"><h1>SELAMAT DATANG!</h1></font>
+					<p>ini adalah website pribadi saya;)</p>
+					<br>
+				</div>
+			</div>
+			</div>
+		</div>
+		<br>
+		<div class="sec" id="about">
+			<h1>ABOUT ME</h1><br>
+			<p>Halo perkenalkan, nama saya Muhammad Fathi Rafi Azhar. Saya berumur 17 tahun, tinggal di jln. Cibubur 01, Rt.04, Rw.12, No.25. saya sangat suka membaca dan mengedit terutama edit video. </p>
+		</div>
+		<div class="sec" id="skills">
+			<h1>SKILLS</h1><br>
+			Membahas skill, saya lumayan professional dalam mengedit baik gambar maupun video, selain itu saya juga ingin mengembangkan skill dalam membuat website menggunakan html atau css.
+			</div>
+				<h1 align="center" id="tabel">TABLE OF WORK</h1>
+				<br><br>
+				
+				<table class="tabel" width="80%" border="1">
+					<thead>
+						<tr>
+							<th>MATERI</th>
+							<th>RINGKASAN</th>
+                    		<th>PENJELASAN</th>
+						</tr>
+						<tbody>
+							<tr>
+								<td>
+                                    <div class="gallery">
+                                        <a target="_blank" href="hello world.html">
+                                          <img src="HELLO WORLD (1).jpg" alt="Cinque Terre" width="600" height="400">
+                                        </a>
+                                        <div class="desc">HTML dengan text</div>
+                                      </div>
+                                      
+                                      <div class="gallery">
+                                        <a target="_blank" href="halaman web.html">
+                                          <img src="TABLE HTML.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <div class="desc">Halaman Web</div>
+                                      </div>
+                                      
+                                      <div class="gallery">
+                                        <a target="_blank" href="format text.html">
+                                          <img src="FORMAT TEXT.jpg" alt="Northern Lights" width="600" height="400">
+                                        </a>
+                                        <div class="desc">Format text di HTML</div>
+                                      </div>
+                                      
+                                      <div class="gallery">
+                                        <a target="_blank" href="hyperlink di html.html">
+                                          <img src="HYPERLINK DI HTML (1).jpg" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <div class="desc">Hyperlink di HTML</div>
+                                      </div>
+                                      
+                                      <div class="gallery">
+                                        <a target="_blank" href="gambar di HTML.html">
+                                          <img src="GAMBAR DI HTML.jpg" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <div class="desc">Gambar di HTML</div>
+                                      </div>
+                                      
+                                      <div class="gallery">
+                                        <a target="_blank" href="semantic.pdf">
+                                          <img src="SEMANTIC DI HTML.png" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <div class="desc">Semantik di HTML</div>
+                                      </div>
+                                      
+                                      <div class="gallery">
+                                        <a target="_blank" href="video di HTML.html">
+                                          <img src="VIDEO DI HTML.jpg" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <div class="desc">Video di HTML</div>
+                                    </div>
+                                      
+								</td>
+								<td>
+									<li><a href="HTML dengan text.pdf">Ringkasan Html dengan text</a></li>
+									<br>
+									<br>
+									<li><a href="Halaman web.pdf">Ringkasan Halaman Web</a></li>
+									<br>
+									<br>
+									<li><a href="Ringkasan format text.pdf">Ringkasan Format Text</a></li>
+									<br>
+									<br>
+									<li><a href="Ringkasan Hyperlink.pdf">Ringkasan Hyperlink</a></li>
+									<br>
+									<br>
+									<li><a href="Ringkasan gambar.pdf">Ringkasan Gambar</a></li>
+									<br>
+									<br>								
+									<li><a href="Ringkasan semantic.pdf">Ringkasan Semantik</a></li>
+									<br>
+									<br>
+									<li><a href="video di HTML.pdf">Ringkasan Video</a></li>
+								</td>
+								<td>
+									<br>
+									<li>Saya dapat membuat text "hello word" di html</li>
+									<br>
+									<br>
+									<li>Saya belajar membuat table di html</li>
+									<br>
+									<br>
+									<li>Saya dapat mengetahui format text apa saja yang terdapat di html</li>
+									<br>
+									<br>
+									<li>Saya dapat membuat link/hyperlink di html</li>
+									<br>
+									<br>
+									<li>Saya dapat memasukkan sebuah gambar di html</li>
+									<br>
+									<br>
+									<li>Saya dapat membuat website pribadi</li>
+									<br>
+									<br>
+									<li>Saya dapat memasukkan video baik dari komputer maupun dari youtube di html</li>
+								</td>
+							</tr>
+						</tbody>
+					</thead>
+		</table>
+	</div>
+		<br>
+		<br>
+		<br><br><br>		
+			<footer>
+				<div class="footer-content" id="contact">
+					<font color ="66FCF1"></font><h3>CONTACT ME</h3>
+						<p>Hubungi saya atau yang ingin mutualan silahkan ;)</p>
+						<ul class="socials">
+							<li><a href="https://www.facebook.com/fathi.rafi.94" title="Facebook" target="blank"><i class="fa fa-facebook-f"></i></a></li>
+							<li><a href="https://www.instagram.com/rafizhr_/" title="Instagram" target="blank"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+						</ul>
+				<div class="footer-bottom">
+					<p>Copyright &copy; 2021 Fathi Rafi</p>
+				</div>
+			</div>
+			</footer>
+	</body>
+</html>
+
